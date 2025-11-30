@@ -2,3 +2,8 @@ logging:
   level: INFO
   loggers:
     com.skyscanner: DEBUG
+server:
+  applicationConnectors:
+    - type: http
+      port: 9000
+      bindHost: 127.0.0.1
